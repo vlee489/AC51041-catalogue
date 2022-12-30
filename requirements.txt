@@ -4,3 +4,4 @@ pika
 redis
 msgpack
 bcrypt
+pytest
