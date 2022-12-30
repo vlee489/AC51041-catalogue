@@ -23,6 +23,7 @@ jobs:
           python -m pytest tests/
 
   docker:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       -
