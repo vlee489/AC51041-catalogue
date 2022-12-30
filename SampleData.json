@@ -1,0 +1,228 @@
+[
+  {
+    "name": "Film 1",
+    "tags": [
+      "Splatoon"
+    ],
+    "categories": [
+      "LANS"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film1.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film1.png"
+    },
+    "description": "This is the description for Film 1",
+    "tag_line": "Watch Me!"
+  },
+  {
+    "name": "Film 2",
+    "tags": [
+      "Splatoon",
+      "Splatoon3"
+    ],
+    "categories": [
+      "LANS",
+      "Test"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film2.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film2.png"
+    },
+    "description": "This is the description for Film 2",
+    "tag_line": "First S3 LAN!"
+  },
+  {
+    "name": "Film 3",
+    "tags": [
+      "Splatoon2",
+      "Low Ink"
+    ],
+    "categories": [
+      "Low Level",
+      "2 Day"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film3.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film3.png"
+    },
+    "description": "This is the description for Film 3",
+    "tag_line": "The Incident!"
+  },
+  {
+    "name": "Film 4",
+    "tags": [
+      "Splatoon",
+      "Splatoon3"
+    ],
+    "categories": [
+      "LANS",
+      "Test"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film4.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film4.png"
+    },
+    "description": "This is the description for Film 4",
+    "tag_line": "First S3 LAN Finals!"
+  },
+  {
+    "name": "Film 5",
+    "tags": [
+      "Splatoon2",
+      "Area Cup"
+    ],
+    "categories": [
+      "Low Level",
+      "SWC"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film5.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film5.png"
+    },
+    "description": "This is the description for Film 3",
+    "tag_line": "JP!"
+  },
+  {
+    "name": "Film 6",
+    "tags": [
+      "Splatoon"
+    ],
+    "categories": [
+      "LANS"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film6.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film6.png"
+    },
+    "description": "This is the description for Film 6",
+    "tag_line": "Watch Me!"
+  },
+  {
+    "name": "Film 7",
+    "tags": [
+      "Splatoon",
+      "Splatoon3"
+    ],
+    "categories": [
+      "LANS",
+      "Test"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film7.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film7.png"
+    },
+    "description": "This is the description for Film 7",
+    "tag_line": "First S3 LAN!"
+  },
+  {
+    "name": "Film 8",
+    "tags": [
+      "Splatoon2",
+      "Low Ink"
+    ],
+    "categories": [
+      "Low Level",
+      "2 Day"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film8.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film8.png"
+    },
+    "description": "This is the description for Film 8",
+    "tag_line": "The Incident!"
+  },
+  {
+    "name": "Film 9",
+    "tags": [
+      "Splatoon",
+      "Splatoon3"
+    ],
+    "categories": [
+      "LANS",
+      "Test"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film9.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film9.png"
+    },
+    "description": "This is the description for Film 9",
+    "tag_line": "First S3 LAN Finals!"
+  },
+  {
+    "name": "Film 10",
+    "tags": [
+      "Splatoon2",
+      "Area Cup"
+    ],
+    "categories": [
+      "Low Level",
+      "SWC"
+    ],
+    "file_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/film/film10.mp4"
+    },
+    "thumbnail_location": {
+      "provider": "DO",
+      "region": "FRA1",
+      "file_path": "vleedn/devops/imgs/film10.png"
+    },
+    "description": "This is the description for Film 10",
+    "tag_line": "JP!"
+  }
+]
