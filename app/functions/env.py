@@ -16,6 +16,6 @@ class EnvVars:
 
     def __init__(self):
         self.debug = self.get_with_default("DEBUG", None)
-        self.mq_uri = self.get_with_default("MQURI", "amqp://localhost:5672")
+        self.mq_uri = self.get_with_default("MQURI", "amqp://rabbitmq:5672")
         self.mongo_uri = self.get_required("MONGOURI")
 
