@@ -39,6 +39,14 @@ class Connector:
         if film:
             return Film.from_dict(film)
 
+    def get_all_films(self) -> List[Film]:
+        """
+        Get films in a categories
+        :return: List of Film(s)
+        """
+        films = self._Films.find({})
+        return [Film.from_dict(x) for x in films]
+
     def get_category_films(self, category: str) -> List[Film]:
         """
         Get films in a categories
