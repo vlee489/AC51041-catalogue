@@ -3,7 +3,7 @@ from app.database import Connector
 from pika import BasicProperties
 
 
-def get_tag_films_callback(ch, method, props, body, db: Connector):
+def get_all_films_callback(ch, method, props, body, db: Connector):
     body: dict = unpack(body)
     response = {"state": "INVALID", "error": "UNKNOWN"}
     complete = False

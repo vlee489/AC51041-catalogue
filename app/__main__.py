@@ -21,7 +21,7 @@ channel.basic_consume(queue="film-cat", on_message_callback=lambda ch, method, p
                       get_category_films_callback(ch, method, properties, body, database))
 channel.queue_declare(queue="film-all")  # Declare Queue
 channel.basic_consume(queue="film-all", on_message_callback=lambda ch, method, properties, body:
-                      get_category_films_callback(ch, method, properties, body, database))
+                      get_all_films_callback(ch, method, properties, body, database))
 # Start application consumer
 channel.start_consuming()
 connection.close()

@@ -62,7 +62,7 @@ class Connector:
         :param tag: name of string
         :return: List of Film(s)
         """
-        films = self._Films.find({"tag": {"$in": [f"{tag}"]}})
+        films = self._Films.find({"tags": {"$in": [f"{tag}"]}})
         return [Film.from_dict(x) for x in films]
 
 
