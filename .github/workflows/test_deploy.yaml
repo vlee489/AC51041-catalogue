@@ -60,5 +60,5 @@ jobs:
           script: |
             cd deploy/
             sudo docker compose pull
-            sudo docker image prune
+            sudo docker image prune -f
             sudo docker compose up -d
