@@ -14,7 +14,7 @@ def get_tag_films_callback(ch, method, props, body, db: Connector):
             complete = True
             continue
         else:
-            films = db.get_category_films(body["tag"])
+            films = db.get_tag_films(body["tag"])
             if films:
                 response = {
                     "state": "VALID",
