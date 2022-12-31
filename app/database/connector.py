@@ -3,6 +3,7 @@ from pymongo import MongoClient
 from typing import Dict, Any, Union, Optional, List
 from pymongo.collection import Collection
 from bson import ObjectId
+from bson.errors import InvalidId
 from .models.film import Film, FilmDict
 
 
@@ -33,11 +34,14 @@ class Connector:
         :param film_id: film's ID
         :return: Film or None
         """
-        if not isinstance(film_id, ObjectId):
-            film_id = ObjectId(film_id)
-        film = self._Films.find_one({"_id": film_id})
-        if film:
-            return Film.from_dict(film)
+        try:
+            if not isinstance(film_id, ObjectId):
+                film_id = ObjectId(film_id)
+            film = self._Films.find_one({"_id": film_id})
+            if film:
+                return Film.from_dict(film)
+        except InvalidId:
+            return None
 
     def get_all_films(self) -> List[Film]:
         """
