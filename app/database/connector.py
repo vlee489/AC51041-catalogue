@@ -69,8 +69,35 @@ class Connector:
         films = self._Films.find({"tags": {"$in": [f"{tag}"]}})
         return [Film.from_dict(x) for x in films]
 
-
-
-
-
-
+    def search_films(self, query: str):
+        films = self._Films.aggregate([
+            {
+                '$search': {
+                    'index': 'films',
+                    'text': {
+                        'query': query,
+                        'path': [
+                            'name', 'tags', 'categories', 'descriptions'
+                        ]
+                    }
+                }
+            }, {
+                '$project': {
+                    'score': {
+                        '$meta': 'searchScore'
+                    },
+                    'name': 1,
+                    'tags': 1,
+                    'categories': 1,
+                    'file_location': 1,
+                    'thumbnail_location': 1,
+                    'description': 1,
+                    'tag_line': 1
+                }
+            }, {
+                '$sort': {
+                    'score': -1
+                }
+            }
+        ])
+        return [Film.from_dict(x) for x in films]
