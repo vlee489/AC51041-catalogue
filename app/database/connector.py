@@ -76,9 +76,9 @@ class Connector:
                     'index': 'films',
                     'text': {
                         'query': query,
-                        'path': [
-                            'name', 'tags', 'categories', 'descriptions'
-                        ]
+                        'path': {
+                            'wildcard': '*'
+                        }
                     }
                 }
             }, {
